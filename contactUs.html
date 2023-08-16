@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="icon" type="image/x-icon" href=".\images\logo.png"> 
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="styles.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style> 
+		.divMain {
+			margin: auto; 
+			width: 600px; 
+			border-spacing: 0;
+			margin: auto;
+		    margin-top: 1%;
+		    padding: 10px;
+		    text-align: center;
+		}
+		.divLabels {
+			padding: 6px; width: 100%; display: inline-flex; 
+		}
+		.width15 { width: 15%; }
+		.width30 { width: 30%; }
+		.button {
+		  background-color: #EE4E34; 
+		  border: none;
+		  color: #FCEDDA;
+		  padding: 10px;
+		  text-align: center;
+		  font-family: cursive;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+		.buttonRounded {border-radius: 12px;}
+		.marginAuto { margin: auto; }
+		.center {
+			text-align-last: center;
+			border: 2px solid black;
+		}
+	</style>
+
+</head>
+
+<header style="background-color: #9db86c;"> 
+	<div style="margin-left: 35%;"> 
+		<a href="StartPage.html">
+			<h1 class="textCenter">Curated Charms</h1>
+		</a>
+	</div>
+</header> 
+
+<body>
+	<div>
+		<div class="fullheight">
+
+			<div id="navbarDiv" class="textCenter">
+				<nav class="fullwidth inlineflex"> 
+					<div class="width25"> <a href="StartPage.html"> <b> Home </b> <a> </div>
+					<div class="width25"> <a href="aboutUs.html"> <b> About Us </b> <a> </div>
+					<div class="width25 dropdown"> <a href="#" class="dropbtn"> <b> Occassions </b> <a>
+					<div class="dropdown-content" style="margin-left: 25%;">
+					    <a href="StartPage.html">Summer</a>
+					    <a href="StartPage.html">Anniversy</a>
+					    <a href="StartPage.html">Birthday</a>
+					    <a href="StartPage.html">Get Well Soon</a>
+					</div>
+				</div>
+					<div class="width25"> <a href="contactUs.html"> <b> Contact Us </b> <a> </div>
+				</nav>
+			</div>
+
+			<h2 style="text-align: center;"> Contact Us </h2>
+
+			<div style="background-image: url('./images/BG.jpg'); background-repeat: no-repeat;  background-size: 100% 100%;">
+
+				<div style="text-align: center;">
+					<div style="width: 50%; margin: auto;" align="center" class="center centered">
+						<p style="font-family: cursive;">
+							We're here to help you make every moment memorable. If you have any questions, special requests, or simply want to share your Curated Charms experience, don't hesitate to get in touch. Our dedicated customer service team is available 24/7 to assist you.
+							<br>
+							Thank you for choosing Curated Charms to be a part of your cherished moments. Let's celebrate life, love, and laughter together, one exquisite bouquet at a time.
+							<br>
+							Curated Charms - Where Emotions Blossom into Art.
+						</p>
+					</div>
+				</div>
+				
+				<div class="divMain">
+					<form action="">
+						<div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"> <input type="text" id="fname" name="firstname" placeholder="First Name*"></div>
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><input type="text" id="lname" name="lastname" placeholder="Last Name*"></div>	
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><input type="text" id="email" name="email" placeholder="Email"></div>	
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><input type="text" id="phone" name="phone" placeholder="Phone"></div>	
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><input type="date" id="date" name="date" placeholder="Delivery Date" style="width: 93%; height: 100%;"></div>
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><select id="country" style="width: 95%;" name="country">
+									<option value="select">Select</option>
+									<option value="australia">Australia</option>
+									<option value="canada">Canada</option>
+									<option value="usa">USA</option>
+									</select>
+								</div>
+							</div>
+							<div class="divLabels">
+								<div class="width30 marginAuto"><textarea id="instructions" style="width: 95%;" name="instructions" placeholder="Write something.." style="height:200px"></textarea></div>
+							</div>
+							<div style="text-align: center;" >
+								<input class="button buttonRounded" type="submit" value="Submit">
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+<footer class="marginLRAuto textCenter" style="margin-top: 2%"> 
+	<p> Have a question or need assistance? Our friendly support team is here to help. </p>
+	<p href="info@curatedcharms.com"> Email: info@curatedcharms.com | Phone: 807-707-7890 </p>
+	Stay Connected! Follow us on social media for the latest updates, promotions, and floral inspiration.
+	<br>
+	Instagram | Facebook | Twitter
+	<br>
+	<br>
+	<strong> Copyright &copy; 2023 Manasa Vangara </strong>
+	<!-- <br>  -->
+ </footer>
+
+</body>
+</html>
